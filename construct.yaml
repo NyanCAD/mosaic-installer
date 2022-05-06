@@ -1,5 +1,5 @@
 name: Mosaic
-version: 0.5.4
+version: 0.5.5
 
 channels:
   - pepijndevos
@@ -12,7 +12,7 @@ keep_pkgs: True
 license_file: LICENSE
 
 specs:
-  - pyttoresque
+  - pyttoresque 0.5.5
   - ngspicesimserver
   - jupyterlab-mosaic
   - couchdb
