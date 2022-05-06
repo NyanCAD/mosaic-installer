@@ -12,9 +12,8 @@ keep_pkgs: True
 license_file: LICENSE
 
 specs:
+  - conda
   - pyttoresque 0.5.5
   - ngspicesimserver
   - jupyterlab-mosaic
   - couchdb
-
-register_python_default: False
