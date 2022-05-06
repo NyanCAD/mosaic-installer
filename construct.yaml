@@ -1,0 +1,20 @@
+name: Mosaic
+version: 0.5.4
+
+channels:
+  - pepijndevos
+  - conda-forge
+
+write_condarc: True
+# keep pkgs for space-saving implications for hardlinks when create new environments
+# and keep the same with Miniconda
+keep_pkgs: True
+license_file: LICENSE
+
+specs:
+  - pyttoresque
+  - ngspicesimserver
+  - jupyterlab-mosaic
+  - couchdb
+
+register_python_default: False
