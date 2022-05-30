@@ -1,5 +1,5 @@
 name: Mosaic
-version: 0.5.6
+version: 1.0.1
 
 channels:
   - pepijndevos
@@ -14,7 +14,7 @@ license_file: LICENSE
 
 specs:
   - conda
-  - pyttoresque 0.5.6
+  - pyttoresque 1.0.1
   - ngspicesimserver 0.4.2
   - jupyterlab-mosaic
   - couchdb
