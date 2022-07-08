@@ -14,7 +14,7 @@ license_file: LICENSE
 
 specs:
   - conda
-  - pyttoresque 1.0.1
-  - ngspicesimserver 0.4.2
+  - pyttoresque 1.0.2
+  - ngspicesimserver 0.4.3
   - jupyterlab-mosaic
   - couchdb
