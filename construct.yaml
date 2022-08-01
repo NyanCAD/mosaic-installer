@@ -3,7 +3,6 @@ version: 1.0.2
 
 channels:
   - pepijndevos
-  - pyviz
   - conda-forge
 
 write_condarc: True
