@@ -1,5 +1,5 @@
 name: Mosaic
-version: 1.0.2
+version: 1.1
 
 channels:
   - pepijndevos
@@ -17,3 +17,4 @@ specs:
   - ngspicesimserver 0.5
   - jupyterlab-mosaic
   - couchdb
+  - dask # datashader depends on dask-core and then complains distribute is missing
