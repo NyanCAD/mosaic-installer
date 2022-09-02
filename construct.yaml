@@ -16,5 +16,5 @@ specs:
   - pyttoresque 1.1.1
   - ngspicesimserver 0.5
   - jupyterlab-mosaic
-  - couchdb==3.2.2==h0ba284d_3 # openssl1
+  - couchdb=3.2.2=h0ba284d_3 # openssl1
   - datashader!=0.14.2 # depends on dask-core and then complains distribute is missing
