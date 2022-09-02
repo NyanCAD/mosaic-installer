@@ -13,8 +13,8 @@ license_file: LICENSE
 
 specs:
   - conda
-  - pyttoresque 1.1
+  - pyttoresque 1.1.1
   - ngspicesimserver 0.5
   - jupyterlab-mosaic
   - couchdb
-  - dask # datashader depends on dask-core and then complains distribute is missing
+  - datashader!=0.14.2 # depends on dask-core and then complains distribute is missing
